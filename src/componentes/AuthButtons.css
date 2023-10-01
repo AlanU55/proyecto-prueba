@@ -1,0 +1,23 @@
+/* Estilos CSS para los botones de inicio de sesión y crear usuario */
+.login-button {
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px; /* Espacio entre los botones */
+  cursor: pointer;
+}
+
+.register-button {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Estilo para el mensaje de error */
+.error-message {
+  font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
+  color: red; /* Cambia el color del texto del mensaje de error si es necesario */
+}

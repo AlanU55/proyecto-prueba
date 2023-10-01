@@ -1,0 +1,92 @@
+/* App.css */
+.App {
+ 
+  font-family: Arial, sans-serif; 
+  text-align: center;
+  padding: 20px;
+}
+
+.card-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.Card {
+  background-color: #222; 
+  color: #fff; 
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s; 
+}
+
+.Card:hover {
+  transform: scale(1.05); 
+}
+
+.Card-title {
+  font-size: 24px; 
+  margin: 10px 0;
+}
+
+.Card-text-secondary {
+  font-size: 18px; 
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s; 
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+
+.title {
+  font-size: 48px; /* Tamaño de fuente más grande */
+  color: #fff; /* Color del texto */
+  margin-top: 30px; /* Espacio superior para separarlo del contenido debajo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
+.login-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el botón de registro si lo agregaste */
+.registration-button {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.registration-button:hover {
+  background-color: #1e7e34;
+}

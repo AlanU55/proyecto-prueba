@@ -1,0 +1,89 @@
+/* Estilos para cuadros de texto */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Estilos para botones de inicio de sesión y registro */
+.login-button, .registration-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover, .registration-button:hover {
+  background-color: #00ff2f;
+}
+
+/* Establece un fondo de página */
+body {
+  background-image: url('imagen-de-fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: #275aa7;
+}
+
+/* Estilos de sombra para las tarjetas */
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para el título principal */
+.title {
+  font-size: 48px;
+  color: #fff;
+  margin-top: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+
+/* Estilo para el carrito de compra */
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.logout-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
